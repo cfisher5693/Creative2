@@ -7,6 +7,7 @@ public class Main {
 		JFrame window = new JFrame();
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.setLocation(550, 35);
+		window.setTitle("Dot Painting");
 		var main = new MainScreen(window);
 		main.init();
 		window.pack();
